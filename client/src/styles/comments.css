@@ -1,0 +1,39 @@
+.comment_input{
+    display: flex;
+    align-items: center;
+}
+
+.comment_input input{
+    background: #f7f7f7;
+    border: none;
+    outline: none;
+    flex: 1;
+    overflow: auto;
+}
+
+.comment_input .postBtn{
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    color: blue;
+    font-weight: 600;
+}
+
+.comment-display{
+    padding: 10px 25px;
+}
+
+.comment_card .comment_content{
+    background: #eee;
+    padding: 7px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+
+}
+
+.comment_content textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
